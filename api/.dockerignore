@@ -1,0 +1,15 @@
+__pycache__
+*.pyc
+*.pyo
+.venv
+.env
+.git
+.gitignore
+.idea
+.vscode
+*.md
+P8_Cityscapes_*
+*.zip
+notebooks
+webapp
+src

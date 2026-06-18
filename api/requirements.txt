@@ -1,0 +1,11 @@
+fastapi==0.115.0
+uvicorn==0.30.0
+python-multipart==0.0.9
+# tensorflow-cpu : pas de libs CUDA -> image bien plus legere pour le deploiement
+# Cloud (inference d'une image a la fois, le CPU suffit largement).
+tensorflow-cpu==2.21.0
+numpy
+Pillow
+# Dependances de test uniquement (non requises en production) :
+pytest==8.3.3
+httpx==0.27.2
